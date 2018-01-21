@@ -1,8 +1,8 @@
 function shout(string) {
-  return string.UpperCase
+  return string.uppercase;
 }
 function whisper(string) {
-  return string.LowerCAse
+  return string.lowercase
 }
 function logShout(string) {
   console.log(shout(string));
@@ -11,7 +11,7 @@ function logWhisper(string) {
   console.log(whisper(string));
 }
 function sayHiToGrandma(string) {
-  if(string == whisper(string)){
+  if (string == whisper(string)){
     console.log('I can\'t hear you!');
   }
   else if(string == shout(string)){
